@@ -1,0 +1,83 @@
+[
+  {
+    "name":"iPhone Air 256 GB",
+    "site":"Amazon",
+    "url":"https://www.amazon.in/iPhone-Air-256-GB-Promotion/dp/B0FQFTV1NP/ref=sr_1_3?crid=EDMFK5066PFX&dib=eyJ2IjoiMSJ9.rjXW9euRenYMJVap9n5wESKKv6kWnif6MTmKHe_6zHfT6ZGwrMKH9cDGIhhkuwQCfA5hm0KaCcadD6u1nfSMr3d8Iox9L7-x112GABAe2eoIRlUdjcivX2JzdVMKkgcrFR9FYTyULdb3EmL1y0wBZG3jAGCoZCdZyzzd6wQ_uF_dGA1gqFoUaJnWddaM2nHMUwEgs8TE0MyCGGYt0tPiL2T0hqHtwXSZcr6-yhB2gt8.kfJrWHzZG_e_-frLmIRye9i-lNXk-GNQofUweAG3pAY&dib_tag=se&keywords=iphone%2B15%2B128gb&qid=1769696919&sprefix=iphone%2B%2Caps%2C425&sr=8-3&th=1",
+    "selectors": {
+      "price": "#corePriceDisplay_desktop_feature_div span[class *=a-price] span.a-price-whole",
+      "stock":  "#availability > span",
+      "discount": "#corePriceDisplay_desktop_feature_div div[class *=a-section] span[class*=savingPriceOverride]"
+    }  
+
+  },
+  {
+    "name": "iPhone Air 256 GB",
+    "site": "Flipkart",
+    "url": "https://www.flipkart.com/apple-iphone-air-sky-blue-256-gb/p/itmc3f8087a2b960?pid=MOBHFN6YZ4TZ55AG&lid=LSTMOBHFN6YZ4TZ55AGRLDFZV&marketplace=FLIPKART&q=iPhone+Air+256+GB&store=tyy%2F4io&srno=s_1_1&otracker=search&otracker1=search&fm=organic&iid=3f81c0e2-08cb-4775-96a5-0b98849cf664.MOBHFN6YZ4TZ55AG.SEARCH&ppt=None&ppn=None&ssid=ukwwxrtnog0000001770349395019&qH=fc34b021622ad322",
+    "selectors": {
+      "price": "#container div.RnKcup div[class*=hZ3P6w]",
+      "stock": "#container  div[class*=col-8-12] div.VkYRUs",
+      "discount": "#container div.RnKcup div.HQe8jr.rASMtN > span"
+    }
+  },
+  {
+    "name": "Samsung Galaxy S23 Ultra 5G AI Smartphone",
+    "site": "Amazon",
+    "url": "https://www.amazon.in/Samsung-Galaxy-Ultra-Phantom-Storage/dp/B0BT9FDZ8N/ref=sr_1_1?crid=2QP77HY94TLF&dib=eyJ2IjoiMSJ9.bN2MZ-9gK-3PjOVmyD1vebjqkHhNtP6uC2aQUiXeZ-Og12ebItIEyOsoliuviKhmItFrlFWp76puFrOdodFzOODUeIjvkWacwIyLLXA0CulLL3WMQt51p20rOI2gFVOQmebgR5IAB4FokuOJCcXamKIHcIx8rTNNkP2yprEPbCyHMw1qquU6nDc09JwCOG63Q-NE16dEQ4wdK5PX4kg3tbKvZ2WVt5i0sXKrHlT4ctg.NQ3Ol4BgKm2aQj5LDTtAAUNjimTFxkmYT3QB0ZfU9Mk&dib_tag=se&keywords=Samsung+Galaxy+S23+Ultra+5G+AI+Smartphone&qid=1770305873&sprefix=samsung+galaxy+s23+ultra+5g+ai+smartphone%2Caps%2C768&sr=8-1",
+    "selectors": {
+      "price": "#corePriceDisplay_desktop_feature_div span[class *=a-price] span.a-price-whole",
+      "stock":  "#availability > span",
+      "discount": "#corePriceDisplay_desktop_feature_div div[class *=a-section] span[class*=savingPriceOverride]"
+  }
+  },
+  {
+    "name":"Samsung Galaxy S23 Ultra 5G AI Smartphone",
+    "site":"Flipkart",
+    "url":"https://www.flipkart.com/samsung-galaxy-s23-ultra-5g-cream-256-gb/p/itm322ed1a040dec?pid=MOBGMFFX44FGHNHV&lid=LSTMOBGMFFX44FGHNHVS7UIZJ&marketplace=FLIPKART&q=Samsung+Galaxy+S23+Ultra+5G+AI+Smartphone&store=tyy%2F4io&srno=s_1_2&otracker=search&otracker1=search&fm=organic&iid=ea7229ba-f222-4836-a038-0ed7bd15dfbd.MOBGMFFX44FGHNHV.SEARCH&ppt=None&ppn=None&ssid=2w65ptllgg0000001769920669686&qH=ba61ad0bd79c886e",
+    "selectors": {
+      "price": "#container div.RnKcup div[class*=hZ3P6w]",
+      "stock":"#container  div[class*=col-8-12] div.VkYRUs",
+      "discount": "#container div.RnKcup div.HQe8jr.rASMtN > span"
+    }
+  },
+  {
+    "name":"OnePlus 15R - ACE Edition | 12GB+256GB",
+    "site":"Amazon",
+    "url":"https://www.amazon.in/OnePlus-15R-Snapdragon%C2%AE-Personalised-Game-changing/dp/B0FZT1D63F/ref=sr_1_1_sspa?crid=23V3SJ17ND2KV&dib=eyJ2IjoiMSJ9.YG0c3Rre36d_u73AroztUwQXRkZQHBkpfunggs55lguOcCVov8OnCsRJFt5OeTWGLn9znKX6bSmSMabV8S0zb5vvMvgc3UfV9YrgIEbeu2XyV-mpLN0S9OeZuXnqW6r5SDlJD82TuEHhELVbIY2-xf6EtugjqUMsg7ayYPqwKFepvDdXy0m6rnWsIrHvNhVvOBiEwiREDDD-MCEGZgljgd54bn_Xybih5wonjnktgWM.S1OnFX2BMLrxyfcjBjLc2lTZocvd95GvM7KDMqYc4eg&dib_tag=se&keywords=nothing%2Bphone%2B3a%2B%2Bpro&qid=1769921064&sprefix=not%2Caps%2C455&sr=8-1-spons&aref=YgGtA0jY8e&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1",
+    "selectors": {
+      "price": "#corePriceDisplay_desktop_feature_div span[class *=a-price] span.a-price-whole",
+      "stock":  "#availability > span",
+      "discount": "#corePriceDisplay_desktop_feature_div div[class *=a-section] span[class*=savingPriceOverride]"
+  }
+ },
+ {
+   "name":"OnePlus 15R - ACE Edition | 12GB+256GB",
+   "site":"Flipkart", 
+   "url":"https://www.flipkart.com/oneplus-15r-5g-electric-violet-256-gb/p/itmc1c624041ba6c?pid=MOBHGUTX4UCJWVJH&lid=LSTMOBHGUTX4UCJWVJHRGLG3R&marketplace=FLIPKART&q=OnePlus+15R+-+ACE+Edition+&store=tyy%2F4io&srno=s_1_2&otracker=search&otracker1=search&fm=Search&iid=3660b6e4-b45d-4465-8490-acb6cb1bc288.MOBHGUTX4UCJWVJH.SEARCH&ppt=sp&ppn=sp&ssid=4l6382pehc0000001769923546506&qH=3d5e73a27b36a36a",
+    "selectors": {
+      "price": "#container div.RnKcup div[class*=hZ3P6w]",
+      "stock":"#container  div[class*=col-8-12] div.VkYRUs",
+      "discount": "#container div.RnKcup div.HQe8jr.rASMtN > span"
+    }  
+  },
+  {
+    "name":"Nothing Phone 3a Pro | 12GB+256GB",
+    "site":"Amazon",
+    "url":"https://www.amazon.in/Nothing-Phone-Grey-256GB-Storage/dp/B0DZTQ1XH1/ref=sr_1_2?crid=34X567H56BYDC&dib=eyJ2IjoiMSJ9.s83CYwh5SkXZculdp5pAGGgT93i4NebU4u954L6NSO6IcIzwEXCPT-0xIIXegX88kKUDIngHOfGpgmqkAGQzzeYzMwbyepONbMny8EN4sgsD64MWTwo6lM5ce1BZSuNhkXj9PgQM7IucvHAha8-38HFC95Z5ZseYbfyXYEex1lxrmuL4D0ROBFr5W18S8KOS3zraMRsljKPd05K1yuAMFkva-If0Uz956q6ELGZ-IYQ.-7XUh7hBguc5-Qi-SUsUuVxbD0J1MWxnnL-9CtkrIj8&dib_tag=se&keywords=Nothing+Phone+3a+Pro+%7C+12GB%2B256GB&qid=1770343256&sprefix=nothing+phone+3a+pro+12gb%2B256gb%2Caps%2C451&sr=8-2",
+    "selectors": {
+      "price": "#corePriceDisplay_desktop_feature_div span[class *=a-price] span.a-price-whole",
+      "stock":  "#availability > span",
+      "discount": "#corePriceDisplay_desktop_feature_div div[class *=a-section]"
+  }
+  },
+  {
+    "name":"Nothing Phone 3a Pro | 12GB+256GB",
+    "site":"Flipkart",
+    "url":"https://www.flipkart.com/nothing-phone-3a-pro-grey-256-gb/p/itm04daaef6652d4?pid=MOBH8G3PHZS7CNYC&lid=LSTMOBH8G3PHZS7CNYCWZL6OB&marketplace=FLIPKART&q=Nothing+Phone+3a+Pro+%7C+12GB%2B256GB&store=tyy%2F4io&srno=s_1_1&otracker=search&otracker1=search&fm=organic&iid=df12a599-eaaf-404e-b481-f66351eabfae.MOBH8G3PHZS7CNYC.SEARCH&ppt=None&ppn=None&ssid=ewpnih6a280000001770343470311&qH=0d56a0ef760cbbb3",
+    "selectors": {
+      "price": "#container div.RnKcup div[class*=hZ3P6w]",
+      "stock":"#container  div[class*=col-8-12] div.VkYRUs",
+      "discount": "#container div.RnKcup div.HQe8jr.rASMtN > span"
+    }  
+  }
+]
