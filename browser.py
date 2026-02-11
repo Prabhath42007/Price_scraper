@@ -11,7 +11,7 @@ def get_page():
     "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Mobile Safari/537.36"
     ]
     playwright = sync_playwright().start()
-    browser = playwright.chromium.launch(headless=True)
+    browser = playwright.chromium.launch(headless=True, args=["--disable-blink-features=AutomationControlled"])#
 
     context = browser.new_context(
         user_agent=random.choice(USER_AGENTS),
@@ -19,8 +19,7 @@ def get_page():
         locale="en-IN",
         timezone_id="Asia/Kolkata",
         java_script_enabled=True
+
     )
  
     return playwright, browser, context
-
-
