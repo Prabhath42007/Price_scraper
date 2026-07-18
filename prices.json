@@ -1,16 +1,30 @@
 {
     "Amazon":{
         "pages":{
-            "iphones":"https://www.amazon.in/s?k=iphone&page="
+            "Steel water bottles & flasks":"https://www.amazon.in/s?k=Steel+water+bottles+%26+flasks&page=",
+            "Beard grooming kits":"https://www.amazon.in/s?k=Beard+grooming+kits&page="
         },
         "container":"div.s-result-item[data-component-type='s-search-result']",
         "selectors":{
             "Product Name":"div[class *=a-section] a  h2",
-            "Price":"span.a-price-whole",
-            "Offer":"div.a-row.a-size-base.a-color-base > div:nth-child(1) > span:nth-child(4)",
-            "Rating":"span.a-size-small.a-color-base",
+            "Price":"div[data-cy=price-recipe]  span.a-price-whole",
+            "Offer":"div[data-cy=price-recipe] span.a-letter-space + span",
+            "Rating":"div[class *=a-size-small] span.a-size-small.a-color-base",
             "Delivery":"div[class *=udm-primary-delivery-message] span#WVCRIAFWG"
+        }
+    },
+    "Flipkart":{
+        "pages":{
+            "USB-C cables & chargers":"https://www.flipkart.com/search?q=USB-C+cables+%26+chargers&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off&page=",
+            "Phone cases":"https://www.flipkart.com/search?q=Phone+cases&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off&page="
+        },
+        "container":"div.lvJbLV.col-12-12 div.nZIRY7",
+        "selectors":{
+            "Product Name":"a.pIpigb",
+            "Price":"a.fb4uj3 div.hZ3P6w",
+            "Offer":"div[class=HQe8jr]>span",
+            "Rating":"div.MKiFS6",
+            "Delivery":""
         }
     }
 }
-
