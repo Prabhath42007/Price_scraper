@@ -2,13 +2,6 @@ import psycopg2
 from psycopg2.extras import execute_values
 from rapidfuzz import fuzz
 
-DB_CONFIG = {
-    "host":     "localhost",
-    "port":     5432,
-    "dbname":   "pricedb",
-    "user":     "Nexora",
-    "password": "Prabhath@2007",
-}
 
 def get_conn():
     return psycopg2.connect(**DB_CONFIG)
