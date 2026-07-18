@@ -1,0 +1,20 @@
+# --- API layer ---
+fastapi
+uvicorn[standard]
+ 
+# --- Scraping (from main.py / browser.py) ---
+playwright
+pandas
+openpyxl
+pillow
+ 
+# --- Google Drive upload ---
+google-api-python-client
+google-auth
+google-auth-httplib2
+ 
+# --- Database (from db.py) ---
+# Uncomment/adjust based on what db.py actually uses — psycopg2-binary is the
+# common choice if db.py talks to Postgres directly.
+psycopg2-binary
+rapidfuzz
